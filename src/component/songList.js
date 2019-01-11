@@ -11,7 +11,7 @@ class SongList extends React.Component {
                     <div className="right floated content">
                         <button 
                             className="ui button primary"
-                            onClick={() => this.props.selectSong(songs)}
+                            onClick={() => this.props.selectSong(song)}
                         >
                             Select
                         </button>
